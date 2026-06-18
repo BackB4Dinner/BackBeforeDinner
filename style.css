@@ -10,8 +10,14 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6
 .logo{font-weight:800;color:var(--green)}
 .btn{background:var(--green);color:white;padding:14px 24px;border-radius:10px;text-decoration:none;font-weight:700}
 .hero{position:relative;height:90vh;background:url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1600&auto=format&fit=crop') center/cover;display:flex;align-items:center}
-.overlay{position:absolute;inset:0;background:rgba(0,0,0,.45)}
-.hero-content{position:relative;color:white;max-width:700px;padding:0 8%}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.55)}
+.hero-content{
+    position:relative;
+    color:white;
+    max-width:700px;
+    padding:0 8%;
+    z-index:2;
+}
 .hero h1{font-size:4.5rem;line-height:1.05;margin:.2em 0}
 .eyebrow{letter-spacing:2px;color:#b8ffd8}
 .hero p{font-size:1.2rem}
