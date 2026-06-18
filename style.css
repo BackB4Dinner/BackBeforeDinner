@@ -32,6 +32,7 @@ button{padding:15px 25px;background:var(--green);color:white;border:none;border-
 .hero h1{font-size:3rem}
 .features{grid-template-columns:1fr}
 .video-placeholder{height:250px}
+}
   .problem-solution {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -109,22 +110,19 @@ button{padding:15px 25px;background:var(--green);color:white;border:none;border-
 .btn-primary:hover {
     transform: translateY(-2px);
 }
-@media (max-width: 768px) {
+@media (max-width:768px){
 
-    .problem-solution {
-        grid-template-columns: 1fr;
-        gap: 3rem;
+    .problem-solution{
+        grid-template-columns:1fr;
+    }
+
+    .benefits-grid{
+        grid-template-columns:1fr;
     }
 
     .problem h2,
-    .solution h2 {
-        font-size: 2rem;
+    .solution h2{
+        font-size:2rem;
     }
-
-    .benefits-grid {
-        grid-template-columns: 1fr;
-    }
-
-}
 
 }
