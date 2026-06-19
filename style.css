@@ -170,6 +170,27 @@ button{padding:15px 25px;background:var(--green);color:white;border:none;border-
     color: #6B7280;
     line-height: 1.7;
 }
+.founder-story{
+    padding:100px 8%;
+    background:white;
+}
+
+.story-container{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.story-content h2{
+    font-size:3rem;
+    margin-bottom:1.5rem;
+}
+
+.story-content p{
+    font-size:1.15rem;
+    line-height:1.8;
+    color:#4B5563;
+}
 
 @media (max-width:768px){
 
