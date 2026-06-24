@@ -30,7 +30,15 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6
     bottom:5%;
     transform:translateX(-50%);
     z-index:2;
-    text-align:center;
+    text-align:center;   
+    padding:0;
+}
+    
+.hero-content h1,
+.hero-content .eyebrow,
+.hero-content p{
+    display:none;
+}
 }
 .hero h1{
     font-size:4.5rem;
