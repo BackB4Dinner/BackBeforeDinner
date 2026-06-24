@@ -22,7 +22,7 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6
     transform:translateY(-2px);
 }
 
-.hero{position:relative;height:90vh;background:url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=1600&auto=format&fit=crop') center/cover;display:flex;align-items:center}
+.hero{position:relative;height:90vh;background:url('idea%202.png') center/cover;display:flex;align-items:center}
 .overlay{position:absolute;inset:0;background:rgba(0,0,0,.55)}
 .hero-content{
     position:relative;
