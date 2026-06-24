@@ -25,11 +25,12 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6
 .hero{position:relative;height:90vh;background:url('hero b4.png') center/cover;display:flex;align-items:center}
 .overlay{position:absolute;inset:0;background:rgba(0,0,0,.55)}
 .hero-content{
-    position:relative;
-    color:white;
-    max-width:700px;
-    padding:0 8%;
+    position:absolute;
+    left:50%;
+    bottom:5%;
+    transform:translateX(-50%);
     z-index:2;
+    text-align:center;
 }
 .hero h1{
     font-size:4.5rem;
