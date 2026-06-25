@@ -81,31 +81,45 @@ section{padding:90px 8%}
 }
 .video-section{
     text-align:center;
-    background:white;
+    background:#29b66f;
+    padding:120px 8%;
+    color:white;
 }
 
 .video-section h2{
     font-size:3rem;
+    color:white;
+    margin-bottom:2rem;
 }
 
 .video-section p{
     max-width:700px;
-    margin:0 auto 2rem;
-    color:#6B7280;
+    margin:0 auto 40px;
+    color:rgba(255,255,255,.9);
+    font-size:1.15rem;
+    line-height:1.7;
 }
 
 .video-placeholder{
     height:450px;
     max-width:1000px;
-    margin:30px auto 0;
+    margin:0 auto 50px;
     border-radius:24px;
     background:#d1d5db;
     display:flex;
     align-items:center;
     justify-content:center;
     font-size:2rem;
-    box-shadow:0 20px 40px rgba(0,0,0,.08);
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
 
+}
+.video-section .btn{
+    background:#FFE66D;
+    color:#1F2937;
+}
+
+.video-section .btn:hover{
+    background:#FFD93D;
 }
 .features{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;background:var(--light)}
 .card{background:white;padding:30px;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.06)}
