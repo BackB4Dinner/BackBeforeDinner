@@ -26,7 +26,7 @@ nav{display:flex;justify-content:space-between;align-items:center;padding:20px 6
     transform:translateY(-2px);
 }
 
-.hero{position:relative;height:90vh;background:url('B4 Hero Image.png') center/cover;display:flex;align-items:center}
+.hero{position:relative;height:90vh;background:url('B4 Hero Image copy.png') center/cover;display:flex;align-items:center}
 .overlay{
     display:none;
 }
